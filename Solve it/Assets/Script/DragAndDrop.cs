@@ -18,6 +18,7 @@ public class DragAndDrop : MonoBehaviour {
     public GameObject correct;
     public GameObject wrong;
     public GameObject ok;
+    public GameObject noclick;
     int ans;
 
     public string sceneName;
@@ -127,7 +128,9 @@ public class DragAndDrop : MonoBehaviour {
                 correct.gameObject.SetActive(true);
                 PlayerPrefs.SetInt(sceneName, 1);
             }
-            StartCoroutine(OK());            
+            StartCoroutine(OK());
+            noclick.gameObject.gameObject.SetActive(true);
+
         }
     }
     IEnumerator OK()
