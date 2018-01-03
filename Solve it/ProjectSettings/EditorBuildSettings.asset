@@ -9,5 +9,17 @@ EditorBuildSettings:
     path: Assets/Scene/MenuScene.unity
     guid: b727da6c40c70c04c92a18b41d536b2f
   - enabled: 1
+    path: Assets/Scene/HelpScene.unity
+    guid: e2752ae0eedc1e04d8848e57595616d3
+  - enabled: 1
+    path: Assets/Scene/LevelScene.unity
+    guid: 2233c5e90c31a684191ff39c9116fb0f
+  - enabled: 1
     path: Assets/Scene/Q1.unity
     guid: 55d73021b5cf9b544b1ffa116f84fc05
+  - enabled: 1
+    path: Assets/Scene/Q2.unity
+    guid: b83465e8f97c3ff4bb7e94eff566c95b
+  - enabled: 1
+    path: Assets/Scene/Q3.unity
+    guid: adbb87115b071b04b82a858382b6b09b

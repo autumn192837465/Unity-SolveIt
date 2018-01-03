@@ -324,7 +324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanPlace: 1
-  Ans: 06000000
+  Ans: d4030000
   correct: 0
 --- !u!1 &54721980
 GameObject:
@@ -366,13 +366,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a533539f7a611d446a9199b234044862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  remCard: 3
+  remCard: 2
   canvas: {fileID: 405027740}
   ProblemPanel: {fileID: 1923117154}
   correct: {fileID: 1216367386}
   wrong: {fileID: 67480857}
   ok: {fileID: 1551639102}
-  sceneName: Q1
+  sceneName: Q3
 --- !u!1 &67480857
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,7 +719,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: +
+  m_Text: "\xF7"
 --- !u!222 &106378114
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -808,8 +808,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 352be10600967f8468637de8569d787f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanPlace: 0
-  Ans: 
+  CanPlace: 1
+  Ans: 0a000000
   correct: 1
 --- !u!1 &206977006
 GameObject:
@@ -860,7 +860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -892,9 +892,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 352be10600967f8468637de8569d787f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanPlace: 1
-  Ans: 0400000005000000
-  correct: 0
+  CanPlace: 0
+  Ans: 
+  correct: 1
 --- !u!1 &215138993
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,7 +996,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &288619551
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1433,10 +1433,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5f442668f93a3a64583e30b6c577c7b1, type: 3}
-    m_FontSize: 92
+    m_FontSize: 59
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 5
     m_MaxSize: 92
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1444,7 +1444,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 5
+  m_Text: 490
 --- !u!222 &640702739
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1507,10 +1507,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5f442668f93a3a64583e30b6c577c7b1, type: 3}
-    m_FontSize: 92
+    m_FontSize: 59
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 5
     m_MaxSize: 92
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1518,7 +1518,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: 10
 --- !u!222 &695441668
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1595,7 +1595,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: +
+  m_Text: 7
 --- !u!222 &696445573
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1662,10 +1662,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5f442668f93a3a64583e30b6c577c7b1, type: 3}
-    m_FontSize: 92
+    m_FontSize: 59
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 5
     m_MaxSize: 92
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2074,10 +2074,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5f442668f93a3a64583e30b6c577c7b1, type: 3}
-    m_FontSize: 92
+    m_FontSize: 59
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 5
     m_MaxSize: 92
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2289,7 +2289,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: '*'
+  m_Text: "\xF7"
 --- !u!222 &1142608943
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2312,7 +2312,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1147383792
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2548,6 +2548,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114230425607060978, guid: ab95faf66bc12c54bb0116853828606a,
+        type: 2}
+      propertyPath: m_Text
+      value: "\xF7"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ab95faf66bc12c54bb0116853828606a, type: 2}
   m_IsPrefabParent: 0
@@ -2669,7 +2674,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5f442668f93a3a64583e30b6c577c7b1, type: 3}
-    m_FontSize: 92
+    m_FontSize: 59
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -2680,7 +2685,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: 980
 --- !u!222 &1364684680
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3153,7 +3158,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1775647215
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3389,9 +3394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 352be10600967f8468637de8569d787f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanPlace: 1
-  Ans: 0400000005000000
-  correct: 0
+  CanPlace: 0
+  Ans: 
+  correct: 1
 --- !u!1 &1992519369
 GameObject:
   m_ObjectHideFlags: 0
@@ -3688,7 +3693,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: +
+  m_Text: 14
 --- !u!222 &2132848619
 CanvasRenderer:
   m_ObjectHideFlags: 0

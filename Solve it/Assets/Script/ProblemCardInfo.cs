@@ -12,7 +12,7 @@ public class ProblemCardInfo : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        correct = false;
+        
 	}
 	
 	// Update is called once per frame
